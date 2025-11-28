@@ -13,7 +13,7 @@ INSTALL_DIR="/opt/turbo-downloader"
 sudo mkdir -p "$INSTALL_DIR"
 sudo chmod -R 777 "$INSTALL_DIR"
 
-RAW_BASE="https://raw.githubusercontent.com/aerixoo/Download-and-Auto-Delete/main"
+RAW_BASE="https://raw.githubusercontent.com/aerixoo/Download-and-Auto-Delete/main/installer.sh"
 
 curl -s -L "$RAW_BASE/download.sh" -o "$INSTALL_DIR/download.sh"
 chmod +x "$INSTALL_DIR/download.sh"
