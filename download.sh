@@ -8,7 +8,7 @@ MAX_FAIL=3
 PARALLEL=3
 
 echo "[INFO] Auto-refreshing URL list..."
-curl -s -L "https://raw.githubusercontent.com/USERNAME/REPO/main/urls.txt" -o "$URL_FILE"
+curl -s -L "https://raw.githubusercontent.com/aerixoo/Download-and-Auto-Delete/main/urls.txt" -o "$URL_FILE"
 
 mapfile -t URLS < "$URL_FILE"
 
